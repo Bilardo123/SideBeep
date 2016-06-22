@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryWhite">#FFFFFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryGray">#D7D7D7</color>
+
+    <color name="bgColor">#20E16D</color>
+    <color name="bgColor2">#404269</color>
+    <color name="viewHomeList">#5D5E7F</color>
+    <color name="textColor">#ffffff</color>
+    <color name="textColorHome">#404269</color>
+    <color name="edittextColor">#B9B9B9</color>
+    <color name="line">#D7D7D7</color>
+    <color name="line2">#969696</color>
+</resources>

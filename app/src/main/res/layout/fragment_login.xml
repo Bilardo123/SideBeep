@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor2">
+
+    <EditText
+        android:id="@+id/edittxtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="USER NAME"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/edittextColor"
+        android:background="@drawable/edittext_rounded"
+        android:gravity="center"
+        android:padding="15dip"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"/>
+
+    <EditText
+        android:id="@+id/edittxtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="KATA SANDI / KODE AKSES"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/edittextColor"
+        android:background="@drawable/edittext_rounded"
+        android:gravity="center"
+        android:padding="15dip"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"/>
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height_normallarge"
+        android:text="Masuk"
+        android:background="@drawable/button_rounded"
+        android:textSize="@dimen/font_normal"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:textColor="@color/textColor"
+        android:textAllCaps="true"
+        android:drawableRight="@drawable/icon_button_white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_normal">
+
+        <CheckBox
+            android:id="@+id/chkRemember"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ingat saya"
+            android:textSize="@dimen/font_normal"
+            android:textColor="@color/textColor"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="7dp"/>
+
+        <TextView
+            android:id="@+id/txtLupaPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="lupa password ?"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/font_normal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar sebagai sider baru"
+            android:textSize="@dimen/font_normal"
+            android:textColor="@color/textColor"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/spacing_large"
+            android:layout_marginRight="@dimen/spacing_large"
+            android:textAllCaps="true"/>
+
+        <Button
+            android:id="@+id/btnDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_normallarge"
+            android:text="Daftar"
+            android:background="@drawable/button_rounded"
+            android:textSize="@dimen/font_normal"
+            android:layout_marginLeft="@dimen/spacing_large"
+            android:layout_marginRight="@dimen/spacing_large"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:layout_marginBottom="@dimen/spacing_large"
+            android:textColor="@color/textColor"
+            android:textAllCaps="true"
+            android:drawableRight="@drawable/icon_button_white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

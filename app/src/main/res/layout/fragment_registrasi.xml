@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor2"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edittxtNamaDepanRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAMA DEPAN"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/edittextColor"
+        android:background="@drawable/edittext_rounded"
+        android:gravity="center"
+        android:padding="15dip"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_normal"/>
+
+    <EditText
+        android:id="@+id/edittxtNamaBelakangRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAMA BELAKANG"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/edittextColor"
+        android:background="@drawable/edittext_rounded"
+        android:gravity="center"
+        android:padding="15dip"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_small"/>
+
+    <Button
+        android:id="@+id/edittxtTanggalLahirRegister"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Tanggal lahir"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/edittextColor"
+        android:background="@drawable/button_rounded2"
+        android:gravity="center"
+        android:padding="15dip"
+        android:textAllCaps="true"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:drawableRight="@drawable/icon_button_green"/>
+
+    <EditText
+        android:id="@+id/edittxtEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ALAMAT EMAIL"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/edittextColor"
+        android:background="@drawable/edittext_rounded"
+        android:gravity="center"
+        android:padding="15dip"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_small"/>
+
+    <EditText
+        android:id="@+id/edittxtNomorHandphoneRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NOMOR HANDPHONE"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/edittextColor"
+        android:background="@drawable/edittext_rounded"
+        android:gravity="center"
+        android:padding="15dip"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_small"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btnDaftarRegistrasi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_tall"
+            android:text="Daftarkan Saya"
+            android:background="@color/bgColor"
+            android:textSize="@dimen/font_normal"
+            android:textColor="@color/textColor"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/icon_button_white"
+            android:paddingRight="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

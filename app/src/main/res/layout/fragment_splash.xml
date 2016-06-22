@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/bgColor">
+
+    <ImageView
+        android:id="@+id/imgSplashScreen"
+        android:layout_width="@dimen/icon_large"
+        android:layout_height="@dimen/icon_large"
+        android:src="@drawable/logo_white2x"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIDEBEEP"
+        android:textSize="@dimen/font_large"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="@dimen/spacing_normal"/>
+
+</LinearLayout>

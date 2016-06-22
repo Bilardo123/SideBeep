@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_half_rounded"
+        android:text="Pengaturan"
+        android:textSize="@dimen/font_large"
+        android:textColor="@color/textColorHome"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_small"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/line"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        />
+
+    <TextView
+        android:id="@+id/txtPengaturanProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan Profil"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/textColorHome"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:drawableLeft="@drawable/test"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/line2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        />
+
+    <TextView
+        android:id="@+id/txtPengaturanNotifikasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan Notifikasi"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/textColorHome"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:drawableLeft="@drawable/test"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/line2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        />
+
+    <TextView
+        android:id="@+id/txtAktivasiKataSandiApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aktivasi Kata Sandi App"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/textColorHome"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:drawableLeft="@drawable/test"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/line2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/line2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="70dp"
+        />
+
+    <TextView
+        android:id="@+id/txtFaq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAQ's"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/textColorHome"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_small"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/line2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_small"
+        />
+
+    <TextView
+        android:id="@+id/txtKetentuanLayanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ketentuan Layanan"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/textColorHome"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_small"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/line2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_small"
+        />
+
+    <TextView
+        android:id="@+id/txtTentangKami"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang Kami"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/textColorHome"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_small"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/line2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_small"
+        />
+
+    <TextView
+        android:id="@+id/txtKebijakanPribadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kebijakan Pribadi"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/textColorHome"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_small"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/line2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="@dimen/spacing_small"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/txtVersionPengaturan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/version_app"
+            android:textSize="@dimen/font_tiny"
+            android:textColor="@color/textColorHome"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="@dimen/spacing_small"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

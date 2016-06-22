@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SideBeep</string>
+    <string name="reg_confirmation_line1">Terima kasih atas ketertarikan anda \n untuk menjadi bagian dari komunitas \n SIDEBEEP.</string>
+    <string name="reg_confirmation_line2">Kami telah mengirimkan konfirmasi registrasi \n ke email anda. Tolong cek email anda dan ikuti \n langkah-langkahnya untuk mendapatkan \n akun sider anda.</string>
+    <string name="reg_confirmation_line3">jika anda tidak mendapatkan email balasan, \n tolong pastikan email yang anda masukkan \n sudah benar.</string>
+    <string name="reg_confirmation_line4">jika anda masih tidak mendapat email, \n mohon hubungi customer support \n di (021)983923882 \n atau email kami di \n support@sidebeep.com</string>
+    <string name="welcome_confirmation_line1">SELAMAT DATANG DI KOMUNITAS SIDEBEEP</string>
+    <string name="welcome_confirmation_line2">pelajari kegunaan dari aplikasi kita, \n berikan service terbaik berdasarkan atas \n kemampuan dan talenta anda, \n dan raih penghasilan untuk diri anda sendiri.</string>
+    <string name="welcome_confirmation_line3">pelajari aplikasi kita lebih lanjut \n pada www.blog.sidebeep.com</string>
+    <string name="change_password_confirmation_line1">PASSWORD ANDA TELAH DI RESET</string>
+    <string name="change_password_confirmation_line2">Silahkan cek email anda \n kami telah mengirimkan password baru \n untuk anda.</string>
+    <string name="version_app">SideBeep Beta Ver 1.0</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:id="@+id/layoutFooter1"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/bgColor2"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgFooter1"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/house_green_clicked"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutFooter2"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/bgColor"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgFooter2"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/calendar_white_unclicked"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutFooter3"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/bgColor"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgFooter3"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/menu__white_unclicked"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutFooter4"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/bgColor"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgFooter4"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/notifikasi_white_unclicked"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutFooter5"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/bgColor"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgFooter5"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/order_list_white_unclicked"/>
+
+    </LinearLayout>
+
+</LinearLayout>

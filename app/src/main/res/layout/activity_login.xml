@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.sidebeep.LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/bgColor2"
+    android:weightSum="2"
+    android:id="@+id/layoutLoginParent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:layout_marginBottom="@dimen/spacing_normal">
+
+        <ImageView
+            android:id="@+id/imgLogin"
+            android:layout_width="40dp"
+            android:layout_height="57dp"
+            android:src="@drawable/logo_green"/>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/layoutLogin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        layout="@layout/fragment_login"/>
+
+    <include
+        android:id="@+id/layoutRegistrasi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        layout="@layout/fragment_registrasi"/>
+
+    <include
+        android:id="@+id/layoutForgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        layout="@layout/fragment_lupa_password" />
+
+    <include
+        android:id="@+id/layoutPasswordConfimation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        layout="@layout/fragment_password_confirmation" />
+
+    <include
+        android:id="@+id/layoutRegistrationConfirmation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        layout="@layout/fragment_registration_confirmation" />
+
+    <include
+        android:id="@+id/layoutWelcomeConfirmation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        layout="@layout/fragment_welcome_confirmation" />
+
+</LinearLayout>
