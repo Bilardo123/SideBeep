@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor2">
+
+    <TextView
+        android:id="@+id/txtWelcomeConfLine1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_confirmation_line1"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/font_small"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtWelcomeConfLine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_confirmation_line2"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/font_small"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtWelcomeConfLine3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_confirmation_line3"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/font_small"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="@dimen/spacing_huge"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btnWelcomeConf"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_tall"
+            android:text="CONTINUE"
+            android:background="@color/bgColor"
+            android:textSize="@dimen/font_small"
+            android:textColor="@color/textColor"
+            android:drawableRight="@drawable/icon_button_white"
+            android:paddingRight="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
